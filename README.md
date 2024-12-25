@@ -20,7 +20,7 @@ Contributing to [Apache Maven Shade Plugin](https://maven.apache.org/plugins/mav
 [![ASF Jira](https://img.shields.io/endpoint?url=https%3A%2F%2Fmaven.apache.org%2Fbadges%2Fasf_jira-MSHADE.json)][jira]
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.plugins/maven-shade-plugin.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin)
-[![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-green?labelColor=blue)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/plugins/maven-shade-plugin/README.md)
+[![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/plugins/maven-shade-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/plugins/maven-shade-plugin/README.md)
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-shade-plugin/job/master.svg?)][build]
 [![Jenkins tests](https://img.shields.io/jenkins/t/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-shade-plugin/job/master.svg?)][test-results]
 
@@ -82,8 +82,8 @@ start the first line of a commit with '(doc)' instead of a ticket number.
 Developer Tips
 --------------
 
-If you machine is big enough and you want to parallelise the IT execution to validate the build
-before a PR you can set the concurrency in MAVEN_OPTS:
+If your machine is sufficiently powerful and you want to parallelise the IT execution to validate the build
+before a PR you can set the concurrency in `MAVEN_OPTS`:
 
 ````
 MAVEN_OPTS=-Dinvoker.parallelThreads=2 mvn verify -Prun-its
@@ -104,7 +104,7 @@ Additional Resources
 + [General GitHub documentation](https://help.github.com/)
 + [GitHub pull request documentation](https://help.github.com/send-pull-requests/)
 + [Apache Maven Twitter Account](https://twitter.com/ASFMavenProject)
-+ #Maven IRC channel on freenode.org
++ [Slack channel for regular contributors](https://infra.apache.org/slack.html)
 
 [jira]: https://issues.apache.org/jira/projects/MSHADE/
 [license]: https://www.apache.org/licenses/LICENSE-2.0
